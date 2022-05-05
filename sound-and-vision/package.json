@@ -1,0 +1,26 @@
+{
+    "scripts": {
+        "synth-to-cloud": "nodemon src/synth_to_cloud.ts",
+        "webserver": "nodemon --ignore src/ui.ts src/server.ts",
+        "frontend": "parcel --open index.html"
+    },
+  "devDependencies": {
+    "@types/node": "^17.0.21",
+    "nodemon": "^2.0.15",
+    "parcel": "^2.4.0",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.2"
+  },
+  "dependencies": {
+    "@kafkajs/confluent-schema-registry": "^3.2.1",
+    "@types/three": "^0.138.0",
+    "@types/uuid": "^8.3.4",
+    "@types/ws": "^8.5.3",
+    "kafkajs": "^1.16.0",
+    "kafkajs-snappy": "^1.1.0",
+    "three": "^0.138.3",
+    "uuid": "^8.3.2",
+    "webmidi": "^3.0.15",
+    "ws": "^8.5.0"
+  }
+}
