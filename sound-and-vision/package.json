@@ -26,6 +26,9 @@
   "resolutions": {
     "minimist": "^1.2.6",
     "moment": "^2.29.2",
-    "sanitize-html": "^2.3.2"
+    "sanitize-html": "^2.3.2",
+    "protobufjs": "^6.11.3",
+    "terser": "^5.14.2",
+    "got": "^11.8.5"
   }
 }
